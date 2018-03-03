@@ -55,5 +55,6 @@ public class QuickFind {
     qf.print();
     qf.union(4,8);
     qf.print();
+    System.out.println(qf.connected(4, 8));
   }
 }
